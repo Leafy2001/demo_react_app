@@ -11,7 +11,7 @@ const AddTask = (props) => {
     return (
         <form className="add-form" onSubmit = {(e) => {
                 let task = {};
-                task.id = Math.floor(Math.random()*10000) + 1;
+                // task.id = Math.floor(Math.random()*10000) + 1;
                 task.text = text;
                 task.day = day;
                 task.reminder = reminder;
